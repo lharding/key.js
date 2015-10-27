@@ -1,0 +1,35 @@
+{
+  "name": "key.js",
+  "description": "A simple key-value-store REST service with swappable backing stores.",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Leander Harding",
+  "homepage": "",
+  "contributors": [
+    "Leander Harding <lsh@lsh.io> (http://lsh.io)"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "main": "key.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "~4.x",
+    "morgan": "^1.6.1",
+    "pg": "^4.4.2",
+    "random-seed": "^0.2.0",
+    "winston": "^1.1.0"
+  },
+  "keywords": [
+    "sample",
+    "rest"
+  ],
+  "repository": "",
+  "devDependencies": {
+    "supertest": "^1.1.0"
+  }
+}

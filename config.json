@@ -1,0 +1,8 @@
+{
+    "logLevel": "debug",
+    "listenPort": 3000,
+    "keyStoreConfig": {
+        "dataStore": "./stores/memory",
+        "dataStoreConfig": {}
+    }
+}
