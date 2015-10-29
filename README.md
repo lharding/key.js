@@ -4,7 +4,7 @@ I've been asked in a few job interviews over the years to implement something li
 
 ## Code Sample!
 
-This is a toy project and not intended for production use and so I've made many decisions differently than I would in the real world (see the [end](#Reality-vs.-code-samples) of this file for more information). It's purpose is to demonstrate my knowledge of Javascript, nodejs, testing (in this case using mocha), asynchronous programming using promises, proper API documentation, SQL, and basic service design.
+This is a toy project and not intended for production use and so I've made many decisions differently than I would in the real world (see the [end](#reality-vs-code-samples) of this file for more information). It's purpose is to demonstrate my knowledge of Javascript, nodejs, testing (in this case using mocha), asynchronous programming using promises, proper API documentation, SQL, and basic service design.
 
 This is a RESTful JSON key-value store. It saves JSON values under arbitrary string keys using a pluggable backing store mechanism. It is not intended to be a world-facing service and therefore includes no permission or authentication mechanism, and reports implementation details in its over-the-wire error messages.
 
